@@ -27,7 +27,7 @@ public class Startup {
         // if there's a crash. In this example the program does not crash and
         // the user gets a nice, friendly message.
         try {
-            emp = new Employee("John","Doe","33333333u",28);
+            emp = new Employee("John","Doe","333333333",28);
             emp.setDaysVacation(1);
             System.out.println(emp.getLastName());
 //            String fullNameInCaps = 
