@@ -14,7 +14,7 @@ public class InvalidNameInputException extends IllegalArgumentException{
     private static final String ERROR_MSG = "Full name should have atleast 2 parts separated by spaces.";
     
     public InvalidNameInputException() {
-        super(ERROR_MSG);
+       super(ERROR_MSG);
     }
 
     public InvalidNameInputException(String string) {
