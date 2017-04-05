@@ -17,11 +17,11 @@ public class InvalidNameInputException extends IllegalArgumentException{
        super(ERROR_MSG);
     }
 
-    public InvalidNameInputException(String string) {
+    public InvalidNameInputException(String errorMsg) {
         super(ERROR_MSG);
     }
 
-    public InvalidNameInputException(String string, Throwable cause1) {
+    public InvalidNameInputException(String errorMsg, Throwable cause1) {
         super(ERROR_MSG, cause1);
     }
 

@@ -17,9 +17,11 @@ public class InputOutputGui {
     }
 
     public void startConversation() {
-        try {
-            String fullName = JOptionPane.showInputDialog("Enter full name:");
-            String lastName = nameService.extractLastName(fullName);
+        String fullName = JOptionPane.showInputDialog("Enter full name:");
+        String lastName = "";
+        
+        try {           
+            lastName = nameService.extractLastName(fullName);
             String msg = "Your last name is: " + lastName;
             JOptionPane.showMessageDialog(null, msg);
         } catch (Exception ne) {
